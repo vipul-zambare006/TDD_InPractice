@@ -7,14 +7,11 @@ namespace CodingTest1
         static void Main(string[] args)
         {
             ParathesisMatcher bc = new ParathesisMatcher();
+
             if (bc.checkBrackets("{}"))
-            {
                 Console.WriteLine("Brackets matched");
-            }
             else
-            {
                 Console.WriteLine("Brackets not matching");
-            }
             Console.ReadKey();
         }
     }
