@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingTest1", "CodingTest1\CodingTest1.csproj", "{5B75EB07-EFB3-495D-98C2-F68A2D1524E0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParathesisMatcher", "CodingTest1\ParathesisMatcher.csproj", "{5B75EB07-EFB3-495D-98C2-F68A2D1524E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrackerChecker.UnitTests", "BrackerChecker.UnitTests\BrackerChecker.UnitTests.csproj", "{49C4BF5B-075E-49B4-87CD-8D38A82E2B13}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParathesisMatcher.UnitTests", "BrackerChecker.UnitTests\ParathesisMatcher.UnitTests.csproj", "{49C4BF5B-075E-49B4-87CD-8D38A82E2B13}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

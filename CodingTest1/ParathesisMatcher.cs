@@ -4,23 +4,23 @@ using System.Text.RegularExpressions;
 
 namespace CodingTest1
 {
-   public class BracketChecker
+   public class ParathesisMatcher
     {
         public bool checkBrackets(string ipString)
         {
             Stack stack = new Stack();
-            if (String.IsNullOrEmpty(ipString))
+            if (string.IsNullOrEmpty(ipString))
             {
                 throw new ArgumentNullException();
             }
 
-            string splChrs = "{}[]()";
-            Regex regex = new Regex(@"[" + splChrs + "]+");
-            Match match = regex.Match(ipString);
-            if (!match.Success)
-            {
-                throw new InvalidOperationException();
-            }
+            //string splChrs = "{}[]()";
+            //Regex regex = new Regex(@"[" + splChrs + "]+");
+            //Match match = regex.Match(ipString);
+            //if (!match.Success)
+            //{
+            //    throw new InvalidOperationException();
+            //}
 
             var ipStringChar = ipString.ToCharArray();
 

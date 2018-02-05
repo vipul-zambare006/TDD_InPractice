@@ -5,18 +5,17 @@ using System;
 namespace BrackerChecker.UnitTests
 {
     [TestFixture]
-    public class BacketCheckerTest
+    public class ParathesisMatcherTest
     {
-        BracketChecker bracketChecker;
+        ParathesisMatcher bracketChecker;
 
         [SetUp]
         public void TestSetup()
         {
-            bracketChecker = new BracketChecker();
+            bracketChecker = new ParathesisMatcher();
         }
 
         [Test]
-        //[ExpectedException(typeof(DivideByZeroException))]  
         public void positiveTest_forMatchingBrackets()
         {
             var inputString = "{{}}{}{}{}()";
@@ -25,7 +24,6 @@ namespace BrackerChecker.UnitTests
         }
 
         [Test]
-        //[ExpectedException(typeof(DivideByZeroException))]  
         public void negative_test_for_single_bracket()
         {
             var inputString = "(";
@@ -35,7 +33,6 @@ namespace BrackerChecker.UnitTests
         }
 
         [Test]
-        //[ExpectedException(typeof(DivideByZeroException))]  
         public void negative_test1_for_all_closing_brackets()
         {
             var inputString = "}}}}}}}";
@@ -45,7 +42,6 @@ namespace BrackerChecker.UnitTests
         }
 
         [Test]
-        //[ExpectedException(typeof(DivideByZeroException))]  
         public void negative_test2_for_misMatching_brackets()
         {
             var inputString = "{(})";
@@ -55,7 +51,6 @@ namespace BrackerChecker.UnitTests
         }
 
         [Test]
-        //[ExpectedException(typeof(DivideByZeroException))]  
         public void negative_test1_for_all_opening_brackets()
         {
             var inputString = "{{{(((([{[[";

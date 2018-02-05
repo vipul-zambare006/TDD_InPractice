@@ -47,17 +47,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BacketCheckerTest.cs" />
-    <Compile Include="Class1.cs" />
+    <Compile Include="ParathesisMatcherTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CodingTest1\CodingTest1.csproj">
+    <ProjectReference Include="..\CodingTest1\ParathesisMatcher.csproj">
       <Project>{5b75eb07-efb3-495d-98c2-f68a2d1524e0}</Project>
-      <Name>CodingTest1</Name>
+      <Name>ParathesisMatcher</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
