@@ -3,3 +3,8 @@ D:\sourcesage\CodingTest\CodingTest1\bin\Debug\CodingTest1.exe
 D:\sourcesage\CodingTest\CodingTest1\bin\Debug\CodingTest1.pdb
 D:\sourcesage\CodingTest\CodingTest1\obj\Debug\CodingTest1.exe
 D:\sourcesage\CodingTest\CodingTest1\obj\Debug\CodingTest1.pdb
+D:\Project-2017\TDD_InPractice\CodingTest1\bin\Debug\CodingTest1.exe.config
+D:\Project-2017\TDD_InPractice\CodingTest1\bin\Debug\CodingTest1.exe
+D:\Project-2017\TDD_InPractice\CodingTest1\bin\Debug\CodingTest1.pdb
+D:\Project-2017\TDD_InPractice\CodingTest1\obj\Debug\CodingTest1.exe
+D:\Project-2017\TDD_InPractice\CodingTest1\obj\Debug\CodingTest1.pdb

@@ -9,6 +9,16 @@
 *.userosscache
 *.sln.docstates
 
+BrackerChecker.UnitTests/bin/Debug/BrackerChecker.UnitTests.dll
+BrackerChecker.UnitTests/bin/Debug/BrackerChecker.UnitTests.pdb
+BrackerChecker.UnitTests/bin/Debug/CodingTest1.exe
+BrackerChecker.UnitTests/bin/Debug/CodingTest1.pdb
+BrackerChecker.UnitTests/obj/Debug/BrackerChecker.UnitTests.csproj.FileListAbsolute.txt
+BrackerChecker.UnitTests/obj/Debug/BrackerChecker.UnitTests.csprojResolveAssemblyReference.cache
+BrackerChecker.UnitTests/obj/Debug/BrackerChecker.UnitTests.dll
+BrackerChecker.UnitTests/obj/Debug/BrackerChecker.UnitTests.pdb
+CodingTest1/obj/Debug/CodingTest1.csproj.FileListAbsolute.txt
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
