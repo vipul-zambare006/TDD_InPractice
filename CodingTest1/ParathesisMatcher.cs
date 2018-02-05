@@ -9,18 +9,7 @@ namespace CodingTest1
         public bool checkBrackets(string ipString)
         {
             Stack stack = new Stack();
-            if (string.IsNullOrEmpty(ipString))
-            {
-                throw new ArgumentNullException();
-            }
-            
-            Regex regex = new Regex(@"[a-zA-Z0-9]");
-            Match match = regex.Match(ipString);
-            if (match.Success)
-            {
-                throw new InvalidOperationException();
-            }
-
+            ValidateInput(ipString);
             var ipStringChar = ipString.ToCharArray();
 
             for (int i = 0; i < ipStringChar.Length; i++)
@@ -45,7 +34,19 @@ namespace CodingTest1
                 return false;
         }
 
-        public bool isMatchingPair(char paranthesis1, char paranthesis2)
+        private void ValidateInput(string ipString)
+        {
+            Regex regex = new Regex(@"[a-zA-Z0-9]");
+
+            if (string.IsNullOrEmpty(ipString))
+                throw new ArgumentNullException();
+         
+            Match match = regex.Match(ipString);
+            if (match.Success)
+                throw new InvalidOperationException();
+        }
+
+        private bool isMatchingPair(char paranthesis1, char paranthesis2)
         {
             if ((paranthesis1 == '{' && paranthesis2 == '}') || (paranthesis1 == '(' && paranthesis2 == ')') || (paranthesis1 == '[' && paranthesis2 == ']'))
                 return true;
