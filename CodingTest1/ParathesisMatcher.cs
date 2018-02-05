@@ -13,14 +13,13 @@ namespace CodingTest1
             {
                 throw new ArgumentNullException();
             }
-
-            //string splChrs = "{}[]()";
-            //Regex regex = new Regex(@"[" + splChrs + "]+");
-            //Match match = regex.Match(ipString);
-            //if (!match.Success)
-            //{
-            //    throw new InvalidOperationException();
-            //}
+            
+            Regex regex = new Regex(@"[a-zA-Z0-9]");
+            Match match = regex.Match(ipString);
+            if (match.Success)
+            {
+                throw new InvalidOperationException();
+            }
 
             var ipStringChar = ipString.ToCharArray();
 

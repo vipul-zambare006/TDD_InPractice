@@ -20,6 +20,7 @@ namespace BrackerChecker.UnitTests
         {
             var inputString = "{{}}{}{}{}()";
             var result = bracketChecker.checkBrackets(inputString);
+
             Assert.IsTrue(result);
         }
 
@@ -60,10 +61,24 @@ namespace BrackerChecker.UnitTests
         }
 
         [Test]
-        public void Should_throw_exception_when_there_is_empty_brackets_string()
+        public void should_throw_exception_when_there_is_empty_brackets_string()
         {
             var inputString = "";
             Assert.Throws(typeof(ArgumentNullException), () => bracketChecker.checkBrackets(inputString));
+        }
+
+        [Test]
+        public void should_throw_invalid_inputException_when_numeric_input_provided()
+        {
+            var inputString = "123343413414";
+            Assert.Throws(typeof(InvalidOperationException), () => bracketChecker.checkBrackets(inputString));
+        }
+
+        [Test]
+        public void should_throw_invalid_inputException_when_alphanumeric_input_provided()
+        {
+            var inputString = "asdadad1212";
+            Assert.Throws(typeof(InvalidOperationException), () => bracketChecker.checkBrackets(inputString));
         }
 
         [TearDown]
