@@ -1,5 +1,0 @@
-D:\sourcesage\CodingTest\CodingTest\bin\Debug\CodingTest.dll
-D:\sourcesage\CodingTest\CodingTest\bin\Debug\CodingTest.pdb
-D:\sourcesage\CodingTest\CodingTest\obj\Debug\CodingTest.csprojResolveAssemblyReference.cache
-D:\sourcesage\CodingTest\CodingTest\obj\Debug\CodingTest.dll
-D:\sourcesage\CodingTest\CodingTest\obj\Debug\CodingTest.pdb
